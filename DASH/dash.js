@@ -57,7 +57,7 @@ onAuthStateChanged(auth, async (user)=>{
                     await fetchCartItems();
                     showVehicles();
                  } else {
-                    window.location.href = "../wsc.html"
+                    window.location.href = "../index.html"
                  }
             } catch (error) {
                 console.error("Error Identifying User!", error);
@@ -78,7 +78,7 @@ if (logOutBtn) {
         try {
             await signOut(auth);
             alert("You have successfuly logged out!");
-            window.location.href = "../wsc.html";
+            window.location.href = "../index.html";
         } catch (error) {
             console.error("Logout Error:", error);
         }
