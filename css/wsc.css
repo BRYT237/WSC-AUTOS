@@ -1,0 +1,125 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 15;
+}
+#navbarSupportedContent{
+    margin-left: 43em;
+}
+.sect1{
+    padding-top: 4em;
+}
+.sect1 .sect1s{
+    background-color: rgb(74, 74, 74);
+    padding-block: 2em;
+}
+.sect1 .sect1a{
+    display: flex;
+    gap: 2em;
+    margin-block: 2em;
+    margin-inline: 5em;
+}
+.sect1 .sect1a img{
+    border-radius: 10px;
+}
+.moreH2{
+    padding-block: 2em;
+    padding-left: 18em;
+}
+.moreH2 #more{
+    margin-left: 1.3em;
+    background-color: rgb(74, 74, 74);
+    color: #fff;
+    border-radius: 8px;
+    border: thin solid;
+    margin-top: 1em;
+    padding: 5px 10px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+}
+#modal{
+    border-radius: 10px;
+    margin-left: 22em;
+    margin-top: 6em;
+    width: 350px;
+    padding-inline: 6em;
+    padding-block: 1em;
+    /* height: 300px; */
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    background-color: #fff;
+
+}
+
+#modal2{
+    border-radius: 10px;
+    margin-left: 22em;
+    margin-top: 6em;
+    width: 350px;
+    padding-inline: 6em;
+    padding-block: 1em;
+    /* height: 300px; */
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    background-color: #fff;
+
+}
+
+
+#modal .mbut{
+    width: 100px;
+    border: thin;
+    border-radius: 5px;
+
+}
+
+#modal2 .mbut2{
+    width: 100px;
+    border: thin;
+    border-radius: 5px;
+
+}
+
+#modalBody .mbut3{
+    width: 100px;
+    border: thin;
+    border-radius: 5px;
+
+}
+
+.disp{
+    display: block !important;
+}
+
+.disp2{
+    display: block !important;
+}
+
+.disp3{
+    display: block !important;
+}
+#modalBody{
+    border-radius: 10px;
+    margin-left: 22em;
+    margin-top: 6em;
+    width: 350px;
+    padding-inline: 6em;
+    padding-block: 1em;
+    /* height: 300px; */
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    background-color: #fff;
+
+}
+
+
+
+

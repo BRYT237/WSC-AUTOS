@@ -1,0 +1,234 @@
+header{
+    position: fixed;
+    width: 100%;
+    z-index: 15;
+}
+#navbarSupportedContent{
+    margin-left: 40em;
+}
+#sigN{
+    padding-top: 8px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+
+.dis{
+    display: block;
+}
+.sect1{
+    padding-top: 2em;
+}
+.sect1s{
+    background-color: rgb(74, 74, 74);
+    padding-block: 2em;
+}
+.sect1a{
+    display: flex;
+    gap: 2em;
+    margin-block: 2em;
+    margin-inline: 5em;
+}
+.sect1a img{
+    border-radius: 10px;
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+}
+.cars{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+
+}
+.main{
+    margin-inline: 3em;
+    margin-block: 5em;
+    border-radius: 10px;
+    padding: 2em ;
+    box-shadow: 0px 0px 2px 5px rgb(128, 127, 127);
+}
+.picsC{
+    display: flex;
+}
+.picsC img{
+    width: 550px;
+}
+
+.foot{
+    display: flex;
+    gap: 2em;
+    padding-inline: 2em;
+    padding-block: 3em;
+}
+.foot .fir{
+    width: 350px;
+    line-height: 2em;
+
+}
+.foot .fir li{
+    list-style-type: none;
+}
+.foot .fir li:hover{
+    text-decoration: underline;
+}
+#modal{
+    border-radius: 10px;
+    margin-left: 20em;
+    margin-top: 6em;
+    width: 350px;
+    padding-inline: 5em;
+    padding-block: 1em;
+    /* height: 300px; */
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    background-color: #fff;
+
+}
+
+#modal2{
+    border-radius: 10px;
+    margin-left: 20em;
+    margin-top: 5em;
+    width: 350px;
+    padding-inline: 6em;
+    padding-block: 1em;
+    /* height: 300px; */
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    background-color: #fff;
+    
+}
+
+
+#modal .mbut{
+    width: 100px;
+    border: thin;
+    border-radius: 5px;
+
+}
+
+#modal2 .mbut2{
+    width: 100px;
+    border: thin;
+    border-radius: 5px;
+
+}
+
+#modalBody .mbut3{
+    width: 100px;
+    border: thin;
+    border-radius: 5px;
+
+}
+
+.disp{
+    display: block !important;
+}
+
+.disp2{
+    display: block !important;
+}
+
+.disp3{
+    display: block !important;
+}
+#modalBody{
+    border-radius: 10px;
+    margin-left: 20em;
+    margin-top: 5em;
+    width: 350px;
+    padding-inline: 6em;
+    padding-block: 1em;
+    /* height: 300px; */
+    display: none;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    background-color: #fff;
+}
+.get{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(128, 127, 127);
+}
+#sectC{
+    position: fixed;
+    top: 0;
+    margin-top: 4em;
+    transform: translateX(-100%);
+    transition: all ease-in-out 0.5s;
+    width: 600px;
+    height: 400px !important;
+    overflow-y: scroll;   
+    overflow-x: hidden; 
+    background-color: #ffffff;
+    padding-bottom: 3em;
+
+}
+.cartmenu{
+    background-color: #fff;
+    margin-top: 3em;
+    height: 400px;
+    
+    
+}
+.cartDisp{
+    transform: translateX(0%) !important;
+    transition: all ease-in-out 0.5s;
+    
+}
+.mainD{
+    display: flex;
+    width: 600px;
+    gap: 2em;
+    padding: 1em;
+}
+.imageD img{
+    width: 200px;
+}
+.Qbut{
+    width: 100px;
+    border: thin;
+    background-color: rgb(128, 127, 127);
+    margin-block: 5px;
+    color: #fff;
+    border-radius: 10px;
+}
+.delBtns{
+    width: 100px;
+    border: thin;
+    background-color: rgb(128, 127, 127);
+    color: #fff;
+    border-radius: 10px;
+}
+#check{
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    border: thin;
+    background-color: rgb(128, 127, 127);
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 2em;
+
+}
+#sigU{
+    display: block;
+    padding-top: 8px;
+    padding-right: 5px;
+    cursor: pointer;
+}
+.logout{
+    display: none;
+}
+.signinDis{
+    display: none;
+}

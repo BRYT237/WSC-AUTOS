@@ -1,0 +1,66 @@
+@media(max-width: 557px){
+    body{
+        /* padding-inline: 2em; */
+        overflow-x: hidden;
+    }
+
+    header{
+    position: fixed;
+    width: 100%;
+    }
+    #navbarSupportedContent{
+    margin-left: 1em;
+    }
+    .sect1{
+        width: 390px;
+        
+    }
+    .sect1s{
+        margin-left: -3.6em;
+    }
+    .sect1a{
+        display: flex;
+        flex-direction: column;        
+    }
+    .piC{
+        margin-left: -15em;
+    }
+    #modal{
+        margin-left: 4em;
+    }
+    #modal2{
+        margin-left: 4em;
+
+    }
+    #modalBody{
+        margin-left: 4em;
+        margin-top: 14em;
+    }
+    .signup{
+        margin-left: -1.2em;
+        width: 350px;
+        height: 700px;
+        gap: 1em;
+    }   
+    .signin{
+        margin-left: -1.2em;
+        margin-top: -1em;
+        width: 350px;
+        height: 500px;
+        gap: 2em;
+    }
+    .picsC{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+        margin-block: 2em;
+    }
+    .picsC img{
+        width: 220px;
+    }
+    .foot{
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+}
