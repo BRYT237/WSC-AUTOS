@@ -187,6 +187,7 @@ header{
 }
 .mainD{
     display: flex;
+    flex-direction: row;
     width: 600px;
     gap: 2em;
     padding: 1em;
@@ -218,6 +219,7 @@ header{
     color: #fff;
     border-radius: 10px;
     margin-left: 2em;
+    margin-top: 3em;
 
 }
 #sigU{

@@ -63,4 +63,21 @@
         flex-direction: column;
         gap: 2em;
     }
+    .mainD{
+        width: 300px;
+        gap: 1px;
+        padding: 1px;
+        /* padding-right: 5px; */
+        display: flex;
+        flex-direction: row;
+    }
+    .Qbut{
+        width: 50px;
+    }
+    .delBtns{
+        width: 70px;
+    }
+    #check{
+        width: 100px;
+    }
 }
